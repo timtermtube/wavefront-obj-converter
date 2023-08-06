@@ -1,5 +1,6 @@
 # wavefront-obj-converter
-wavefront-obj-converter (a.k.a. WOC) helps you to apply your own creative 3D object into <NAME_OF_APPLICATION>.
+wavefront-obj-converter (a.k.a. WOC) helps you 
+to apply your own creative 3D object into <NAME_OF_APPLICATION>.
 
 
 # How to use?
