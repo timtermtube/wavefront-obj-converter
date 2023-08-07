@@ -47,10 +47,9 @@ def o_file(path: str):
             #case "vn": # vertex normals
 
     f.close()
-
     return structure
 
-def gen_file():
+def gen_file(s):
     pass
 
 def gen_face():
@@ -62,5 +61,6 @@ def gen_face():
 # IF_TEXTURE = check_texture()
 PATH = input("Write the path of valid .obj file you want to convert: ")
 s = o_file(PATH)
+gen_file(s)
 
 print(s)
