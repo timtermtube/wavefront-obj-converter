@@ -32,10 +32,12 @@ def o_file(path: str):
         match p_l[0]:
             case "v": # geometric vertices
                 coordinate = [float(p_l[1]), float(p_l[2]), float(p_l[3])]
-                if len(l) == 5: 
-                    coordinate.append(float(p_l[4])) 
-                else: 
-                    coordinate.append(1.0)
+
+                #if len(l) == 5: 
+                #    coordinate.append(float(p_l[4])) 
+                #else: 
+                #    coordinate.append(1.0)
+                
                 structure["v"].append(tuple(coordinate))
 
             case "f": # polygonal face
