@@ -14,5 +14,6 @@ interface shape {
 }
 /* 'complex' consists of shapes. */
 interface complex {
+    type: "complex"
     shapes: shape[]
 }
